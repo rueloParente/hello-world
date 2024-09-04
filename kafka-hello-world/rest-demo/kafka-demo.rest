@@ -1,0 +1,3 @@
+POST http://localhost:8080/send?message=Hello_Kafka
+###
+POST http://localhost:8080/send?message=This_is_a_test_message

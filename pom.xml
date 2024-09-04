@@ -17,6 +17,6 @@
     </properties>
 
     <modules>
-
+        <module>kafka-hello-world</module>
     </modules>
 </project>
