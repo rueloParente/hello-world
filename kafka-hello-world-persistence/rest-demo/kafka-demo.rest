@@ -1,0 +1,18 @@
+# curl -X POST http://localhost:8080/api/kafka/send
+#     -H "Content-Type: application/json"
+#     -d '{"message":"Hello World!","topic":"kafka-demo"}'
+POST http://localhost:8080/send
+Content-Type: application/json
+
+{
+  "message": "Hello World!",
+  "topic": "kafka-demo"
+}
+
+###
+
+
+
+###
+
+GET localhost:8080/messages

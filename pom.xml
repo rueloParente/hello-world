@@ -18,5 +18,6 @@
 
     <modules>
         <module>kafka-hello-world</module>
+        <module>kafka-hello-world-persistence</module>
     </modules>
 </project>
